@@ -29,6 +29,7 @@ SECRET_KEY = env('SECRETKEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://smart-care-lfee.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
